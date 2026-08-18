@@ -81,11 +81,11 @@ body{
     background: rgb(117, 117, 117);
 }
 
-/*01 Body Items*/
+/*01 Body Items - Random Info*/
 
 .body-01{
     text-align: center;
-    padding: 48px 0;
+    padding: 48px 32px;
 }
 
 .body-01 h2{
@@ -111,4 +111,31 @@ body{
     border-style: solid;
     border-color: #3882F6;
     border-radius: 16px;
+}
+
+/*02 Body Items - Quote */
+
+.body-02{
+    display: flex;
+    padding: 0 32px;
+    justify-content: center;
+    background: #E5E7EB;
+}
+
+.quote-container{
+    padding: 96px 0;
+    width: 800px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.sign{
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
 }
