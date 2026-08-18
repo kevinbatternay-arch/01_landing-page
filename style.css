@@ -6,8 +6,21 @@
 }
 
 body{
-    margin: 0 250px;
     height: 100%;
+}
+
+/*Header Items*/
+.header-container{
+    display: flex;
+    justify-content: center;
+    flex: 1 1;
+    background: #1F2937;
+}
+
+.header-body{
+    width: 1000px;
+    color: #F9FAF8;
+    padding: 0 36px;
 }
 
 .header{
@@ -16,14 +29,25 @@ body{
     padding: 18px 0;
 }
 
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+}
+
 .page-links{
     display: flex;
     gap: 24px;
 }
 
+.page-links a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .header-content{
     display: flex;
-    gap: 32px;
+    /*flex-wrap: wrap;*/
+    gap: 64px;
     padding: 64px 0;
 }
 
@@ -31,8 +55,28 @@ body{
     flex: 1;
 }
 
+.content-left h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content-left p{
+    margin-bottom: 12px;
+}
+
+.content-left button{
+    padding: 8px 32px;
+    border: 0;
+    border-radius: 8px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 900;
+}
+
 .content-right{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(117, 117, 117);
 }
