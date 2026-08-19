@@ -184,3 +184,10 @@ body{
 
 /* Footer section */
 
+.footer{
+    text-align: center;
+    color: #F9FAF8;
+    font-weight: 400;
+    background: #1F2937;
+    padding: 36px 0;
+}
