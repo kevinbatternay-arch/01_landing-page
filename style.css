@@ -139,3 +139,48 @@ body{
     font-size: 24px;
     font-weight: bold;
 }
+
+/* CTA Section */
+
+.body-03{
+    display: flex;
+    justify-content: center;
+    padding: 72px 32px;
+    font-style: normal;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    width: 900px;
+    height: 125px;
+    padding: 28px 96px;
+    border-radius: 16px;
+    background: #3882F6;
+    color: #F9FAF8;
+}
+
+.cta-right{
+    flex-shrink: 0;
+}
+
+.cta-title{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cta-button{
+    padding: 4px 32px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Footer section */
+
